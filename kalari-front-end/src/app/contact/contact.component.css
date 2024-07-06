@@ -1,0 +1,35 @@
+.container {
+  position: relative;
+  background-color: black;
+  background-size: cover;
+  background-position: center;
+  height: 900px; /* Set a fixed height or adjust as needed */
+  width: 100%;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 70px;
+}
+
+.contact-column1,.contact-column2 {
+  width: 45%;
+  color: black;
+  background-color: #ffffff;
+}
+
+.contact-column h2 {
+  color: #ffffff;
+}
+
+.contact-column1 {
+  max-width: 800px;
+  margin: 50px auto 20px; 
+  padding: 50px;
+  border: 20px solid #333333;
+  border-radius: 8px;
+  margin-top: 80px;
+}

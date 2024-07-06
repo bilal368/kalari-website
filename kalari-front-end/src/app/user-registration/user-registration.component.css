@@ -1,0 +1,44 @@
+input[type="date"]::before{
+    color: #ffffff;
+    content: attr(placeholder) ": ";
+    }
+    input[type="date"]:focus::before {
+    content: "" !important;
+    }
+
+    body{
+        margin: 128px;
+    }
+
+    .ct-modalBody {
+        margin: 128px;
+      }
+      
+      .ct-modalBody-content {
+        color: #F00;
+      }
+      
+      /* .ct-form--inverse {
+     
+      } */
+      
+      .form-group {
+        margin-bottom: 30px;
+      }
+      
+      .form-control {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+      }
+      
+      .btn {
+        background-color: #d9534f;
+        color: #fff;
+        padding: 10px;
+        cursor: pointer;
+      }
+      
+      .btn:hover {
+        background-color: #c9302c;
+      }

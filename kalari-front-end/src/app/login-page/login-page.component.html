@@ -1,0 +1,12 @@
+<div class="login-container">
+  <h2>Login</h2>
+  <form [formGroup]="LoginForm" (ngSubmit)="signIn()">
+    <label for="username">Username:</label>
+    <input type="text" id="username" formControlName="username" required>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" formControlName="password" required>
+
+    <button mat-raised-button type="submit">Login</button>
+  </form>
+</div>

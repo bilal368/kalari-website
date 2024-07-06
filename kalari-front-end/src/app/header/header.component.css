@@ -1,0 +1,46 @@
+.app-header {
+  background-color: #4c0909;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 40px;
+}
+
+.logo img {
+  width: 50px;
+  padding: 4px;
+}
+
+.label {
+  padding: 10px;
+  color: #ffffff;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.label a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: background 0.3s ease;
+
+}
+
+.label:hover {
+  background-color: rgba(223, 215, 215, 0.2);
+}
+
+.labelDiv {
+  display: flex;
+  justify-content: space-evenly;
+  padding-right: 30px;
+  padding-top: 0px;
+}

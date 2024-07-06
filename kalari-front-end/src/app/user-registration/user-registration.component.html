@@ -1,0 +1,100 @@
+<div class="ct-modalBody" style="margin: 128px;">
+  
+    <div class="ct-modalBody-content">
+        <div class="fontphp" style="color:#F00;"> <br></div>
+        <form [formGroup]="registrationForm" (ngSubmit)="onSubmit()" class="ct-form--inverse" role="form" action="" method="POST" enctype="multipart/form-data">
+            <div class="row">
+                <div class=" col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <div class="form-group ct-u-marginBottom30">
+                        <input type="text" class="form-control" required="required" name="first_name" value="">
+                        <label class="sr-only" for="Name">Name</label>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <div class="form-group ct-u-marginBottom30">
+                        <input type="text" class="form-control textbox-n" placeholder="" required="required"
+                            name="kalaridob" onfocus="(this.type = 'date')" id="date" value="">
+                        <label class="sr-only" for="DOB">DOB</label>
+                    </div>
+                </div>
+                <div class=" col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <div class="form-group ct-u-marginBottom30">
+                        <input type="text" class="form-control" required="required" name="mobile" value="">
+                        <label class="sr-only" for="Name">Phone Number</label>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <div class="form-group ct-u-marginBottom30">
+                        <input type="text" class="form-control" name="whatsapp" value="">
+                        <label class="sr-only" for="whatsapp">whatsapp</label>
+                    </div>
+                </div>
+                <div class=" col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <div class="form-group ct-u-marginBottom30">
+                        <input type="text" class="form-control" required="required" name="email" value="">
+                        <label class="sr-only" for="Name">Email</label>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <div class="form-group ct-u-marginBottom30">
+                        <input type="text" class="form-control" name="parentname" value="">
+                        <label class="sr-only" for="DOB">Parent'name</label>
+                    </div>
+                </div>
+                <div class=" col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <div class="form-group ct-u-marginBottom30">
+                        <input type="text" class="form-control" name="occupation" value="">
+                        <label class="sr-only" for="Name">Occupation</label>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <div class="form-group ct-u-marginBottom30">
+                        <select class="form-control" name="kalarigender" required="required">
+                            <option value="">Gender</option>
+                            <option value="1">Male</option>
+                            <option value="2">Female</option>
+                        </select>
+                    </div>
+                </div>
+                <div class=" col-lg-12 col-md-12 col-sm-6 col-xs-12">
+                    <div class="form-group ct-u-marginBottom30">
+                        <textarea class="form-control" name="kalariaddress" rows="5">   </textarea>
+                        <label class="sr-only" for="Name">Contact Address</label>
+                    </div>
+                </div>
+                <div class=" col-lg-12 col-md-12 col-sm-6 col-xs-12">
+                    <div class="form-group ct-u-marginBottom30">
+                        <input name="password" class="form-control" required="required" type="password">
+                        <label class="sr-only" for="Name">Create Password</label>
+                    </div>
+                </div>
+                <div class=" col-lg-12 col-md-12 col-sm-6 col-xs-12">
+                    <div class="form-group ct-u-marginBottom30">
+                        <input name="vpassword" class="form-control" required="required" type="password">
+                        <label class="sr-only" for="Name">Retype Password</label>
+                        <div id="gpass" style="color:#F00;"></div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <div class="form-group ct-u-marginBottom30">
+                        Upload your Photo ( jpg only )
+                        <input type="file" name="img">
+                    </div>
+                </div>
+                <div class=" col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <div class="form-group ct-u-marginBottom30 ct-u-marginTop20 form-control--filled">
+                        <input type="checkbox" required="required" placeholder="Full Name" name="kalariaccept">
+                        Accept <a href="" style="color: blue;" target="_blank"><i>Terms &amp; Conditions</i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-offset-3 col-sm-6 text-center">
+                    <input name="submit" class="btn btn-danger btn-sm" style="float:none; width:200px;" type="submit">
+                    <!--<button type="submit" class="btn btn-danger btn-sm"><span>Register Now</span></button>-->
+                </div>
+            </div>
+        </form>
+    </div>
+
+</div>

@@ -1,0 +1,27 @@
+.home-page{
+  background-color: rgb(92, 2, 2);
+}
+  
+app-header {
+  position: fixed;
+  width: 98%;
+  z-index: 1000;
+}
+
+.define-kalari{
+  margin-top: 52px;
+}
+
+.mat-typography h2 {
+  font: 500 20px/32px Roboto, sans-serif;
+    letter-spacing: .0125em;
+    padding: 49px;
+    padding-left: initial;
+}
+/* .define-kalari{
+  max-width: 800px;
+    margin: 20px auto;
+    padding: 50px;
+    border: 20px solid #333333;
+    border-radius: 8px;
+} */
